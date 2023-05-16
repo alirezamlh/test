@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Enum.Resource</OriginalElement>
+  <nodes>
+    <node x="345.0" y="1404.0">model.people.DogUnit</node>
+    <node x="85.0" y="1404.0">model.people.Engineer</node>
+    <node x="667.6875" y="-496.0">java.lang.Enum</node>
+    <node x="1751.0" y="1116.0">controller.UserController</node>
+    <node x="1611.0" y="830.0">model.buildings.Converter</node>
+    <node x="1677.5" y="645.0">model.buildings.Building</node>
+    <node x="819.0" y="-68.5">Enum.Resource</node>
+    <node x="1173.0" y="1380.0">model.people.Assassin</node>
+    <node x="1357.0" y="1527.0">view.EditMapMenu</node>
+    <node x="959.0" y="1527.0">view.StartGameMenu</node>
+    <node x="853.0" y="842.0">model.buildings.MeltingFactory</node>
+    <node x="1728.0" y="1527.0">view.ProfileMenu</node>
+    <node x="2968.0" y="1220.0">model.structures.MovingShield</node>
+    <node x="-174.0" y="1718.0">model.Map</node>
+    <node x="2071.0" y="1527.0">view.ReignMenu</node>
+    <node x="2509.5" y="993.0">model.buildings.GateHouse</node>
+    <node x="673.0" y="1527.0">view.Menu</node>
+    <node x="643.5" y="-600.0">java.lang.constant.Constable</node>
+    <node x="1655.0" y="-104.0">Enum.UnitType</node>
+    <node x="2741.0" y="1527.0">view.UnitMenu</node>
+    <node x="3260.0" y="1220.0">model.structures.Ladder</node>
+    <node x="1543.0" y="1527.0">view.BuildingMenu</node>
+    <node x="2419.0" y="1220.0">model.structures.BatteringRam</node>
+    <node x="569.0" y="819.0">model.buildings.MovingBridge</node>
+    <node x="598.0" y="-69.0">Enum.BuildingType</node>
+    <node x="2711.0" y="1220.0">model.structures.Ballista</node>
+    <node x="-174.0" y="1527.0">view.RegisterAndLoginMenu</node>
+    <node x="1426.0" y="-69.0">Enum.StructuresType</node>
+    <node x="900.0" y="1404.0">model.people.LadderMen</node>
+    <node x="-174.0" y="-600.0">controller.GameController</node>
+    <node x="1141.0" y="806.0">model.buildings.Inn</node>
+    <node x="3192.0" y="1527.0">model.GameMap</node>
+    <node x="-43.0" y="1718.0">model.User</node>
+    <node x="2265.0" y="842.0">model.buildings.dogCage</node>
+    <node x="391.0" y="-69.0">Enum.TreeName</node>
+    <node x="2843.75" y="1116.0">model.structures.Structure</node>
+    <node x="465.5" y="-600.0">java.lang.Comparable</node>
+    <node x="2522.0" y="830.0">model.buildings.House</node>
+    <node x="1223.0" y="-69.0">Enum.FieldType</node>
+    <node x="133.0" y="1527.0">model.Reign</node>
+    <node x="1430.0" y="1404.0">model.people.RangedUnit</node>
+    <node x="603.0" y="1404.0">model.people.CloseRangeUnit</node>
+    <node x="2240.0" y="1527.0">view.TradeMenu</node>
+    <node x="3045.0" y="842.0">model.buildings.OilDig</node>
+    <node x="3288.0" y="842.0">model.buildings.Wall</node>
+    <node x="2409.0" y="1527.0">view.ShopMenu</node>
+    <node x="2065.0" y="1116.0">controller.MapController</node>
+    <node x="-149.0" y="819.0">model.buildings.Producer</node>
+    <node x="2013.0" y="-69.0">Enum.UnitState</node>
+    <node x="220.0" y="806.0">model.buildings.Tower</node>
+    <node x="1159.0" y="1527.0">Main</node>
+    <node x="128.0" y="-79.5">java.lang.Enum.EnumDesc</node>
+    <node x="959.5" y="-587.5">java.io.Serializable</node>
+    <node x="1997.0" y="795.0">model.buildings.StoreHouse</node>
+    <node x="457.0" y="1527.0">view.ShowMapMenu</node>
+    <node x="1901.0" y="1527.0">view.GameMenu</node>
+    <node x="1023.0" y="-68.5">Enum.Direction</node>
+    <node x="3355.0" y="1527.0">model.Block</node>
+    <node x="-174.0" y="1404.0">model.people.Tunneler</node>
+    <node x="1366.0" y="819.0">model.buildings.Church</node>
+    <node x="-174.0" y="993.0">model.buildings.ProducerFromField</node>
+    <node x="2576.0" y="1527.0">view.MainMenu</node>
+    <node x="2784.0" y="806.0">model.buildings.KillingDig</node>
+    <node x="614.0" y="1116.0">model.people.MilitaryUnit</node>
+    <node x="211.0" y="993.0">model.buildings.BigTower</node>
+    <node x="2900.0" y="1527.0">model.TradeItem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.buildings.dogCage" target="model.buildings.Building" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="2383.5" y="770.0" />
+      <point x="1794.0" y="770.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="model.buildings.Inn" target="model.buildings.Building" relationship="GENERALIZATION">
+      <point x="0.0" y="-63.0" />
+      <point x="1243.5" y="770.0" />
+      <point x="1794.0" y="770.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="model.buildings.ProducerFromField" target="model.buildings.Producer" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="model.buildings.GateHouse" target="model.buildings.House" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="model.people.RangedUnit" target="model.people.MilitaryUnit" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="1568.0" y="1355.0" />
+      <point x="741.5" y="1355.0" />
+      <point x="0.0" y="107.0" />
+    </edge>
+    <edge source="model.structures.MovingShield" target="model.structures.Structure" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="3104.0" y="1195.0" />
+      <point x="2966.75" y="1195.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="model.people.Tunneler" target="model.people.MilitaryUnit" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="-54.5" y="1355.0" />
+      <point x="741.5" y="1355.0" />
+      <point x="0.0" y="107.0" />
+    </edge>
+    <edge source="Enum.UnitType" target="java.lang.Enum" relationship="GENERALIZATION">
+      <point x="0.0" y="-85.0" />
+      <point x="1824.0" y="-124.0" />
+      <point x="1213.75" y="-124.0" />
+      <point x="1213.75" y="-134.0" />
+      <point x="895.6875" y="-134.0" />
+      <point x="76.0" y="171.0" />
+    </edge>
+    <edge source="model.buildings.Tower" target="model.buildings.Building" relationship="GENERALIZATION">
+      <point x="0.0" y="-63.0" />
+      <point x="384.5" y="770.0" />
+      <point x="1794.0" y="770.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="model.buildings.MeltingFactory" target="model.buildings.Building" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="987.0" y="770.0" />
+      <point x="1794.0" y="770.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="model.people.DogUnit" target="model.people.MilitaryUnit" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="464.0" y="1355.0" />
+      <point x="741.5" y="1355.0" />
+      <point x="0.0" y="107.0" />
+    </edge>
+    <edge source="model.buildings.OilDig" target="model.buildings.Building" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="3156.5" y="770.0" />
+      <point x="1794.0" y="770.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="model.buildings.StoreHouse" target="model.buildings.Building" relationship="GENERALIZATION">
+      <point x="0.0" y="-74.0" />
+      <point x="2121.0" y="770.0" />
+      <point x="1794.0" y="770.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="model.structures.Ladder" target="model.structures.Structure" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="3378.0" y="1195.0" />
+      <point x="2966.75" y="1195.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="model.buildings.Producer" target="model.buildings.Building" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="8.5" y="770.0" />
+      <point x="1794.0" y="770.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="model.structures.BatteringRam" target="model.structures.Structure" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="2555.0" y="1195.0" />
+      <point x="2966.75" y="1195.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="model.buildings.BigTower" target="model.buildings.Tower" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="63.0" />
+    </edge>
+    <edge source="Enum.UnitState" target="java.lang.Enum" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="2103.0" y="-124.0" />
+      <point x="1213.75" y="-124.0" />
+      <point x="1213.75" y="-134.0" />
+      <point x="895.6875" y="-134.0" />
+      <point x="76.0" y="171.0" />
+    </edge>
+    <edge source="Enum.Direction" target="java.lang.Enum" relationship="GENERALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="1113.0" y="-124.0" />
+      <point x="1213.75" y="-124.0" />
+      <point x="1213.75" y="-134.0" />
+      <point x="895.6875" y="-134.0" />
+      <point x="76.0" y="171.0" />
+    </edge>
+    <edge source="model.buildings.House" target="model.buildings.Building" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="2643.0" y="770.0" />
+      <point x="1794.0" y="770.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="model.people.LadderMen" target="model.people.MilitaryUnit" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="1026.5" y="1355.0" />
+      <point x="741.5" y="1355.0" />
+      <point x="0.0" y="107.0" />
+    </edge>
+    <edge source="model.people.Engineer" target="model.people.MilitaryUnit" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="205.0" y="1355.0" />
+      <point x="741.5" y="1355.0" />
+      <point x="0.0" y="107.0" />
+    </edge>
+    <edge source="model.buildings.Church" target="model.buildings.Building" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="1478.5" y="770.0" />
+      <point x="1794.0" y="770.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="Enum.TreeName" target="java.lang.Enum" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="484.5" y="-124.0" />
+      <point x="1213.75" y="-124.0" />
+      <point x="1213.75" y="-134.0" />
+      <point x="895.6875" y="-134.0" />
+      <point x="76.0" y="171.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable" relationship="REALIZATION">
+      <point x="0.0" y="-171.0" />
+      <point x="819.6875" y="-521.0" />
+      <point x="1019.5" y="-521.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.structures.Ballista" target="model.structures.Structure" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="2829.5" y="1195.0" />
+      <point x="2966.75" y="1195.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Enum.BuildingType" target="java.lang.Enum" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="698.5" y="-124.0" />
+      <point x="1213.75" y="-124.0" />
+      <point x="1213.75" y="-134.0" />
+      <point x="895.6875" y="-134.0" />
+      <point x="76.0" y="171.0" />
+    </edge>
+    <edge source="model.buildings.Converter" target="model.buildings.Building" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="Enum.Resource" target="java.lang.Enum" relationship="GENERALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="911.0" y="-124.0" />
+      <point x="1213.75" y="-124.0" />
+      <point x="1213.75" y="-134.0" />
+      <point x="895.6875" y="-134.0" />
+      <point x="76.0" y="171.0" />
+    </edge>
+    <edge source="model.people.Assassin" target="model.people.MilitaryUnit" relationship="GENERALIZATION">
+      <point x="0.0" y="-51.0" />
+      <point x="1291.5" y="1355.0" />
+      <point x="741.5" y="1355.0" />
+      <point x="0.0" y="107.0" />
+    </edge>
+    <edge source="model.people.CloseRangeUnit" target="model.people.MilitaryUnit" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="107.0" />
+    </edge>
+    <edge source="model.buildings.MovingBridge" target="model.buildings.Building" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="701.0" y="770.0" />
+      <point x="1794.0" y="770.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.constant.Constable" relationship="REALIZATION">
+      <point x="0.0" y="-171.0" />
+      <point x="819.6875" y="-521.0" />
+      <point x="791.5" y="-521.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Enum.StructuresType" target="java.lang.Enum" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="1530.5" y="-124.0" />
+      <point x="1213.75" y="-124.0" />
+      <point x="1213.75" y="-134.0" />
+      <point x="895.6875" y="-134.0" />
+      <point x="76.0" y="171.0" />
+    </edge>
+    <edge source="model.buildings.KillingDig" target="model.buildings.Building" relationship="GENERALIZATION">
+      <point x="0.0" y="-63.0" />
+      <point x="2904.5" y="770.0" />
+      <point x="1794.0" y="770.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable" relationship="REALIZATION">
+      <point x="0.0" y="-171.0" />
+      <point x="819.6875" y="-521.0" />
+      <point x="544.5" y="-521.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Enum.FieldType" target="java.lang.Enum" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="1314.5" y="-124.0" />
+      <point x="1213.75" y="-124.0" />
+      <point x="1213.75" y="-134.0" />
+      <point x="895.6875" y="-134.0" />
+      <point x="76.0" y="171.0" />
+    </edge>
+    <edge source="java.lang.Enum.EnumDesc" target="java.lang.Enum" relationship="INNER_CLASS">
+      <point x="0.0" y="-60.5" />
+      <point x="249.5" y="-134.0" />
+      <point x="743.6875" y="-134.0" />
+      <point x="-76.0" y="171.0" />
+    </edge>
+    <edge source="model.buildings.Wall" target="model.buildings.Building" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="3394.5" y="770.0" />
+      <point x="1794.0" y="770.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.16717603386869165" showDependencies="false" x="1760.6182436204435" y="566.4168558392055" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
